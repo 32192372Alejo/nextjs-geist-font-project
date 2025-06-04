@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Interviewface</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_interviews">Interviews</string>
+    <string name="nav_comments">Comments</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_more">More</string>
+    
+    <!-- Main Screen -->
+    <string name="featured_interview_title">Behavioral Interviews:\nPsychology</string>
+    <string name="featured_interview_description">Prepare for your interview for clinical and therapeutic psychology roles</string>
+    <string name="practice_interviews_title">Practice Interviews</string>
+    <string name="start_button">Start</string>
+    
+    <!-- Practice Interviews -->
+    <string name="marketing_interview_title">Marketing Job Interview</string>
+    <string name="marketing_interview_description">Prepare for your marketing position interview</string>
+    <string name="software_interview_title">Software Engineer Interview</string>
+    <string name="software_interview_description">Refine your skills for your software engineering interview</string>
+    <string name="data_interview_title">Data Analysis Interview</string>
+    <string name="data_interview_description">Prepare for your data analysis interview</string>
+    
+    <!-- Initial Screen -->
+    <string name="title">InterviewFace</string>
+    <string name="main_subtitle">Project your professional future using our interview simulator</string>
+    <string name="btn_login">Log in</string>
+    <string name="btn_register">Register</string>
+    <string name="bottom_description">With this simulator you can practice your interviewer skills and improve the selection of candidates for your company</string>
+    <string name="toast_login">Logging in...</string>
+    <string name="toast_register">Registering user...</string>
+    <string name="time_up_message">Time\'s up! Start the interview again to continue practicing.</string>
+    
+    <!-- Login and Register -->
+    <string name="login_title">Log in</string>
+    <string name="register_title">Register to start your live interview practice</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="social_login">Or log in with</string>
+    <string name="terms_policy">By clicking "register" you agree to our terms and privacy policy</string>
+    <string name="password_hint">Password must be at least 6 characters</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="account_section">Account</string>
+    <string name="email_password">Email and password</string>
+    <string name="notifications_section">Notifications</string>
+    <string name="push_notifications">Push notifications</string>
+    <string name="email_notifications">Email notifications</string>
+    <string name="language_section">Language</string>
+    <string name="spanish_option">Spanish</string>
+    <string name="english_option">English</string>
+    <string name="other_section">Other</string>
+    <string name="terms_of_service">Terms of service</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="logout_button">Log out</string>
+    <string name="delete_account_button">Delete account</string>
+    
+    <!-- Interview Resources -->
+    <string name="more_resources">More Resources</string>
+    <string name="interview_guide">Interview Guide</string>
+    <string name="interview_faqs">Interview FAQs</string>
+    <string name="psychology_interviews">Psychology Interviews</string>
+    <string name="technical_interviews">Technical Interviews</string>
+    <string name="behavioral_interviews">Behavioral Interviews</string>
+    <string name="before_interview">Before the Interview</string>
+    <string name="during_interview">During the Interview</string>
+    <string name="after_interview">After the Interview</string>
+    
+    <!-- Profile Screen -->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="history">History</string>
+    <string name="interview_history">Interview History</string>
+    <string name="performance">Performance</string>
+    <string name="completed_interviews">Completed Interviews</string>
+    <string name="interview_speed">Interview Speed</string>
+    <string name="effectiveness">Effectiveness</string>
+    
+    <!-- Register Screen -->
+    <string name="back">Back</string>
+    <string name="full_name">Full name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="toggle_password">Show/hide password</string>
+    <string name="full_name_required">Please enter your full name</string>
+    <string name="phone_required">Please enter your phone number</string>
+    <string name="registration_success">Registration successful</string>
+    <string name="accept_terms_required">You must accept the terms and conditions</string>
+</resources>
