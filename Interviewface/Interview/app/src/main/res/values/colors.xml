@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_background">#121A21</color>
+    <color name="card_background">#17222e </color>
+    <color name="navigation_background">#32343A</color>
+    <color name="yellow_accent">#FFB800</color>
+    <color name="blue_accent">#007BFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_secondary">#A8A8A8</color>
+    <color name="black">#000000</color>
+    <color name="button_background">#414548</color>
+    <color name="green_accent">#64C351</color>
+    <color name="light_text">#9EA3A8</color>
+    <color name="divider_color">#2A3541</color>
+    
+    <!-- Bottom Navigation Colors -->
+    <color name="bottom_nav_selected">#FFFFFF</color>
+    <color name="bottom_nav_unselected">#9EA3A8</color>
+    
+    <!-- Colores para la pantalla de resultados -->
+    <color name="blue_progress">#007BFF</color>
+    <color name="gray_progress">#444444</color>
+    <color name="light_gray">#CCCCCC</color>
+    <color name="star_color">#FFD700</color>
+    <color name="blue_button">#007BFF</color>
+</resources>
