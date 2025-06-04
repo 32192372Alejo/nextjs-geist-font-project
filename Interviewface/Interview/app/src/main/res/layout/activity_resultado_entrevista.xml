@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_back"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Volver atrás" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Resultado entrevista"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginStart="16dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rendimiento general"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/tvCalificacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.8"
+                android:textColor="@color/white"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="24dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="4dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:layout_marginEnd="8dp" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar5"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="8dp"
+                        android:layout_weight="1"
+                        android:progress="60"
+                        android:progressTint="@color/blue_progress" />
+
+                    <TextView
+                        android:id="@+id/tvPorcentaje5"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:text="60%"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="4dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:layout_marginEnd="8dp" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar4"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="8dp"
+                        android:layout_weight="1"
+                        android:progress="25"
+                        android:progressTint="@color/blue_progress" />
+
+                    <TextView
+                        android:id="@+id/tvPorcentaje4"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:text="25%"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="4dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:layout_marginEnd="8dp" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar3"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="8dp"
+                        android:layout_weight="1"
+                        android:progress="10"
+                        android:progressTint="@color/blue_progress" />
+
+                    <TextView
+                        android:id="@+id/tvPorcentaje3"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:text="10%"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="4dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:layout_marginEnd="8dp" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar2"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="8dp"
+                        android:layout_weight="1"
+                        android:progress="5"
+                        android:progressTint="@color/blue_progress" />
+
+                    <TextView
+                        android:id="@+id/tvPorcentaje2"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:text="5%"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:layout_marginEnd="8dp" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar1"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="8dp"
+                        android:layout_weight="1"
+                        android:progress="0"
+                        android:progressTint="@color/gray_progress" />
+
+                    <TextView
+                        android:id="@+id/tvPorcentaje1"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:text="0%"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="4.8"
+                android:stepSize="0.1"
+                android:progressTint="@color/star_color"
+                android:secondaryProgressTint="@color/star_color"
+                android:isIndicator="true" />
+
+            <TextView
+                android:id="@+id/tvNumResenas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.2K reseñas"
+                android:textColor="@color/light_gray"
+                android:textSize="14sp"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calificación promedio"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/tvCalificacionPromedio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.8"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTendencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Últimos 30 días +15%"
+                android:textColor="@color/light_gray"
+                android:textSize="14sp"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivGrafica"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/grafica_rendimiento"
+            android:scaleType="fitXY"
+            android:contentDescription="Gráfica de rendimiento" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comentarios"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="24dp" />
+
+        <!-- Comentario 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_comment"
+                android:contentDescription="Icono comentario" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Estás haciendo bien en mantener el contacto visual"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:background="@drawable/circle_green"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <!-- Comentario 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_comment"
+                android:contentDescription="Icono comentario" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tu ritmo de habla es muy rápido, intenta hablar más lento"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:background="@drawable/circle_green"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <!-- Comentario 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_comment"
+                android:contentDescription="Icono comentario" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Estás haciendo bien en apartar la mirada de vez en cuando"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:background="@drawable/circle_green"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Preguntas"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="24dp" />
+
+        <!-- Pregunta 1 -->
+        <LinearLayout
+            android:id="@+id/layoutHablameDeTi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_dark_item">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Háblame de ti"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_arrow_right"
+                android:contentDescription="Ir a detalle" />
+        </LinearLayout>
+
+        <!-- Pregunta 2 -->
+        <LinearLayout
+            android:id="@+id/layoutFortalezas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_dark_item">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cuáles son tus fortalezas?"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_arrow_right"
+                android:contentDescription="Ir a detalle" />
+        </LinearLayout>
+
+        <!-- Pregunta 3 -->
+        <LinearLayout
+            android:id="@+id/layoutDebilidades"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_dark_item">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cuáles son tus debilidades?"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_arrow_right"
+                android:contentDescription="Ir a detalle" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnComenzarDeNuevo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comenzar de nuevo"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/blue_button"
+            android:padding="12dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>
