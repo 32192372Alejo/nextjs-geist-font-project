@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:translateX="21.6"
+        android:translateY="21.6">
+        <!-- Teléfono con borde dorado -->
+        <path
+            android:fillColor="#FFD700"
+            android:pathData="M30,10C25.58,10 22,13.58 22,18V90C22,94.42 25.58,98 30,98H70C74.42,98 78,94.42 78,90V18C78,13.58 74.42,10 70,10H30ZM30,18H70V82H30V18ZM50,90C52.21,90 54,88.21 54,86C54,83.79 52.21,82 50,82C47.79,82 46,83.79 46,86C46,88.21 47.79,90 50,90Z"/>
+        
+        <!-- Icono de perfil en la pantalla -->
+        <path
+            android:fillColor="#000000"
+            android:pathData="M50,30C45.58,30 42,33.58 42,38V50C42,54.42 45.58,58 50,58H58C62.42,58 66,54.42 66,50V38C66,33.58 62.42,30 58,30H50ZM50,38H58V50H50V38ZM50,62C45.58,62 42,65.58 42,70C42,74.42 45.58,78 50,78H58C62.42,78 66,74.42 66,70C66,65.58 62.42,62 58,62H50Z"/>
+        
+        <!-- Cámara en la parte inferior -->
+        <path
+            android:fillColor="#FFD700"
+            android:pathData="M85,55C80.58,55 77,58.58 77,63V67C77,71.42 80.58,75 85,75C89.42,75 93,71.42 93,67V63C93,58.58 89.42,55 85,55ZM85,59C87.21,59 89,60.79 89,63V67C89,69.21 87.21,71 85,71C82.79,71 81,69.21 81,67V63C81,60.79 82.79,59 85,59Z"/>
+    </group>
+</vector>
