@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/dark_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicio de Entrevista:"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/interviewTypeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INGENIERÍA DE SOFTWARE"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="64dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/cameraResponseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESPONDER CON CÁMARA"
+        android:backgroundTint="@color/blue_accent"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/textResponseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESPONDER CON TEXTO"
+        android:backgroundTint="@color/blue_accent"
+        android:textColor="@color/white"/>
+</LinearLayout>
