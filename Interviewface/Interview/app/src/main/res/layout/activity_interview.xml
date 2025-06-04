@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_background">
+
+    <!-- Barra de progreso con porcentaje (estilo exacto de la imagen) -->
+    <LinearLayout
+        android:id="@+id/progressContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="4dp">
+
+            <TextView
+                android:id="@+id/progressTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:text="Pregunta 1 de 5" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/progressPercentageTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:text="20%" />
+        </LinearLayout>
+
+        <!-- Barra de progreso -->
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:progressTint="@color/blue_accent"
+            android:progress="20" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressContainer"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="¿Cuáles son tus fortalezas profesionales?" />
+
+    <!-- Divider removed as requested -->
+
+    <!-- Contenedor para la cámara (estilo exacto de la imagen) -->
+    <FrameLayout
+        android:id="@+id/cameraContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/questionTextView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/dark_background"
+        android:visibility="visible">
+
+        <androidx.camera.view.PreviewView
+            android:id="@+id/viewFinder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+            
+        <!-- Cronómetro elegante para la entrevista -->
+        <TextView
+            android:id="@+id/chronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chronometer_background"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:text="00:00"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="bold"
+            android:letterSpacing="0.05"
+            android:elevation="2dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/recordingIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:background="#00000000"
+            android:padding="0dp"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:visibility="gone"
+            android:layout_marginBottom="0dp" />
+    </FrameLayout>
+
+    <!-- Contenedor para la respuesta de texto -->
+    <EditText
+        android:id="@+id/textResponseEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/questionTextView"
+        android:layout_above="@+id/continueButton"
+        android:layout_margin="24dp"
+        android:background="@color/card_background"
+        android:gravity="top|start"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:hint="Escribe tu respuesta aquí..."
+        android:textColorHint="@color/text_secondary"
+        android:visibility="gone" />
+
+    <!-- Contenedor para los botones de grabación -->
+    <LinearLayout
+        android:id="@+id/recordingButtonsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_margin="24dp">
+
+        <!-- Botón para continuar durante la grabación -->
+        <Button
+            android:id="@+id/nextQuestionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="SIGUIENTE PREGUNTA"
+            android:backgroundTint="@color/blue_accent"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+            
+
+            
+        <!-- Botón para grabar respuesta -->
+        <Button
+            android:id="@+id/recordButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INICIAR GRABACIÓN"
+            android:backgroundTint="@color/blue_accent"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!-- Botón para continuar con respuesta de texto -->
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="24dp"
+        android:text="CONTINUAR"
+        android:backgroundTint="@color/blue_accent"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+    <!-- Botones de navegación eliminados -->
+
+</RelativeLayout>
