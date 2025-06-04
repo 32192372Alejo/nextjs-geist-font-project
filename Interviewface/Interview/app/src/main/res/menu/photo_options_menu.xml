@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/option_change_photo"
+        android:icon="@drawable/ic_change"
+        android:title="Cambiar foto" />
+    <item
+        android:id="@+id/option_delete_photo"
+        android:icon="@drawable/ic_trash"
+        android:title="Eliminar foto" />
+</menu>
