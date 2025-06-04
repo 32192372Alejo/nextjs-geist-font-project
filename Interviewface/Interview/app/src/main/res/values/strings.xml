@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Interviewface</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_interviews">Entrevistas</string>
+    <string name="nav_comments">Comentarios</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="nav_more">Más</string>
+    
+    <!-- Main Screen -->
+    <string name="featured_interview_title">Entrevistas de comportamiento:\nPsicología</string>
+    <string name="featured_interview_description">Prepara tu entrevista para roles en psicología clínica y terapéutica</string>
+    <string name="practice_interviews_title">Entrevistas de práctica</string>
+    <string name="start_button">Inicio</string>
+    
+    <!-- Practice Interviews -->
+    <string name="marketing_interview_title">Entrevista de trabajo de marketing</string>
+    <string name="marketing_interview_description">Prepárate para tu puesto de marketing entrevista</string>
+    <string name="software_interview_title">Entrevista de ingeniero de software</string>
+    <string name="software_interview_description">Perfecciona tus habilidades para tu entrevista de ingeniería de software</string>
+    <string name="data_interview_title">Entrevista de análisis de datos</string>
+    <string name="data_interview_description">Prepárate para tu entrevista de análisis de datos</string>
+    <!-- Initial Screen -->
+    <string name="title">InterviewFace</string>
+    <string name="main_subtitle">Proyecta tu futuro laboral con el uso de nuestro simulador de entrevistas</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_register">Registrarse</string>
+    <string name="bottom_description">Con este simulador podrás practicar tus habilidades de entrevistador y mejorar la selección de candidatos para tu empresa</string>
+    <string name="toast_login">Iniciando sesión...</string>
+    <string name="toast_register">Registrando usuario...</string>
+    <string name="time_up_message">¡Se acabó el tiempo! Vuelve a empezar la entrevista para continuar practicando.</string>
+    
+    <!-- Login and Register -->
+    <string name="login_title">Iniciar sesión</string>
+    <string name="register_title">Regístrese para comenzar su práctica de entrevista en vivo</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="social_login">O iniciar sesión con</string>
+    <string name="terms_policy">Al hacer clic en "registrarse" acepta nuestros términos y política de privacidad</string>
+    <string name="password_hint">La contraseña debe tener al menos 6 caracteres</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings_title">Configuración</string>
+    <string name="account_section">Cuenta</string>
+    <string name="email_password">Correo y contraseña</string>
+    <string name="notifications_section">Notificaciones</string>
+    <string name="push_notifications">Notificaciones push</string>
+    <string name="email_notifications">Notificaciones correo</string>
+    <string name="language_section">Idioma</string>
+    <string name="spanish_option">Español</string>
+    
+    <!-- Registro - Campos adicionales -->
+    <string name="education_level">Nivel de estudios</string>
+    <string name="select_education_level">Selecciona tu nivel de estudios</string>
+    <string name="specialty">Especialidad</string>
+    <string name="select_specialty">Selecciona tu especialidad</string>
+    
+    <!-- Arrays para spinners -->
+    <string-array name="education_levels">
+        <item>Selecciona tu nivel de estudios</item>
+        <item>Estudiante</item>
+        <item>Bachiller</item>
+        <item>Técnico</item>
+        <item>Tecnólogo</item>
+        <item>Profesional</item>
+        <item>Especialista</item>
+        <item>Maestría</item>
+        <item>Doctorado</item>
+    </string-array>
+    
+    <string-array name="specialties">
+        <item>Selecciona tu especialidad</item>
+        <item>Medicina</item>
+        <item>Enfermería</item>
+        <item>Psicología</item>
+        <item>Odontología</item>
+        <item>Fisioterapia</item>
+        <item>Nutrición</item>
+        <item>Programación de Software</item>
+        <item>Ingeniería Civil</item>
+        <item>Ingeniería Mecánica</item>
+        <item>Ingeniería Eléctrica</item>
+        <item>Ciencias de la Computación</item>
+        <item>Ciberseguridad</item>
+        <item>Análisis de Datos</item>
+        <item>Derecho</item>
+        <item>Economía</item>
+        <item>Sociología</item>
+        <item>Ciencias Políticas</item>
+        <item>Trabajo Social</item>
+        <item>Antropología</item>
+        <item>Administración de Empresas</item>
+        <item>Marketing</item>
+        <item>Finanzas</item>
+        <item>Recursos Humanos</item>
+        <item>Contabilidad</item>
+        <item>Comercio Internacional</item>
+        <item>Diseño Gráfico</item>
+        <item>Arquitectura</item>
+        <item>Literatura</item>
+        <item>Historia del Arte</item>
+        <item>Música</item>
+        <item>Comunicación Audiovisual</item>
+    </string-array>
+    <string name="english_option">English</string>
+    <string name="other_section">Otro</string>
+    <string name="terms_of_service">Términos de servicio</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="logout_button">Cerrar sesión</string>
+    <string name="delete_account_button">Eliminar cuenta</string>
+    
+    <!-- Register Screen -->
+    <string name="back">Volver</string>
+    <string name="full_name">Nombre completo</string>
+    <string name="phone_number">Número de teléfono</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="invalid_email">Por favor, introduce un correo válido</string>
+    <string name="toggle_password">Mostrar/ocultar contraseña</string>
+    <string name="full_name_required">Por favor, introduce tu nombre completo</string>
+    <string name="phone_required">Por favor, introduce tu número de teléfono</string>
+    <string name="registration_success">Registro exitoso</string>
+    <string name="accept_terms_required">Debes aceptar los términos y condiciones</string>
+</resources>
