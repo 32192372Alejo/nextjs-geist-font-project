@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_background">
+
+    <!-- Anillo exterior con líneas discontinuas -->
+    <ImageView
+        android:id="@+id/animatedRingDashedImageView"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/animated_ring_dashed" />
+
+    <!-- Anillo exterior (más grande) -->
+    <ImageView
+        android:id="@+id/animatedRingOuterImageView"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/animated_ring_outer" />
+
+    <!-- Anillo interior -->
+    <ImageView
+        android:id="@+id/animatedRingImageView"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/animated_ring" />
+
+    <!-- Logo en el centro -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/ic_launcher" />
+
+</RelativeLayout>
