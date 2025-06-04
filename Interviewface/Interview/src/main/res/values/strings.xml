@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Interviewface</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_interviews">Entrevistas</string>
+    <string name="nav_comments">Comentarios</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="nav_more">Más</string>
+    
+    <!-- Main Screen -->
+    <string name="featured_interview_title">Entrevistas de comportamiento:\nPráctica técnica</string>
+    <string name="featured_interview_description">Domina las preguntas comunes de entrevista sobre código, diseño y arquitectura</string>
+    <string name="practice_interviews_title">Entrevistas de práctica</string>
+    <string name="start_button">Inicio</string>
+    
+    <!-- Practice Interviews -->
+    <string name="marketing_interview_title">Entrevista de trabajo de marketing</string>
+    <string name="marketing_interview_description">Prepárate para tu puesto de marketing entrevista</string>
+    <string name="software_interview_title">Entrevista de ingeniero de software</string>
+    <string name="software_interview_description">Perfecciona tus habilidades para tu entrevista de ingeniería de software</string>
+    <string name="data_interview_title">Entrevista de análisis de datos</string>
+    <string name="data_interview_description">Prepárate para tu entrevista de análisis de datos</string>
+</resources>
